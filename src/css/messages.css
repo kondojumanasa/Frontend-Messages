@@ -1,0 +1,44 @@
+body{
+    font-family:roboto;
+    margin:50px;
+}
+
+.main{
+    text-align: center;
+}
+
+form{
+    max-width:400px;
+    margin:0 auto;
+}
+
+label{
+    display: block;
+    margin-bottom:8px;
+    font-weight:bold;
+
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background-color:#218838;
+    color:white;
+    width:100px;
+    height: 30px;
+    border:none;
+border-radius:10px;
+}
+
+.success-msg{
+    color:green;
+    font-size:1.2em;
+    margin-top:20px;
+    text-align:center;
+}
